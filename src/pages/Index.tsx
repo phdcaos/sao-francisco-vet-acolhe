@@ -14,9 +14,12 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <HeroSection />
+      <HeroSection 
+        logoImage="/lovable-uploads/ae6915c2-5245-4308-b9d0-10fe4c837944.png"
+        heroImage="/lovable-uploads/3f591ae7-9272-43e1-9fc0-f118930e917b.png"
+      />
       <ServicesSection />
-      <HistorySection />
+      <HistorySection founderImage="/lovable-uploads/956c83cc-b35d-4ca1-a486-1b25c07cd2b9.png" />
       <TeamSection />
       <TestimonialsSection />
       <ContactSection />

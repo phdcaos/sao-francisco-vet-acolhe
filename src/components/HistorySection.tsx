@@ -1,7 +1,11 @@
 
 import React from 'react';
 
-const HistorySection = () => {
+interface HistorySectionProps {
+  founderImage: string;
+}
+
+const HistorySection = ({ founderImage }: HistorySectionProps) => {
   return (
     <section id="historia" className="py-16 md:py-24 bg-gradient-beige">
       <div className="section-container">
@@ -32,16 +36,20 @@ const HistorySection = () => {
           </div>
           
           <div className="md:col-span-2 grid gap-4">
-            <div className="rounded-lg overflow-hidden shadow-lg transform -rotate-3">
+            <div className="rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1570476922354-81227cdbb76c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
-                alt="Hospital em seus primeiros anos" 
-                className="w-full h-64 object-cover"
+                src={founderImage}
+                alt="Dr. Luiz Carlos de Oliveira - Fundador" 
+                className="w-full h-auto object-cover"
               />
+              <div className="p-3 bg-white text-center">
+                <p className="font-medium text-saofrancisco-brown">Dr. Luiz Carlos de Oliveira</p>
+                <p className="text-sm text-gray-600">Fundador do Hospital Veterinário São Francisco</p>
+              </div>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg transform rotate-3">
               <img 
-                src="https://images.unsplash.com/photo-1584381006705-4d73dfa6836e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
+                src="/lovable-uploads/3f591ae7-9272-43e1-9fc0-f118930e917b.png" 
                 alt="Hospital hoje" 
                 className="w-full h-64 object-cover"
               />

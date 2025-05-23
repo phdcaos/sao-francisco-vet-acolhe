@@ -2,11 +2,16 @@
 import React from 'react';
 import { CalendarPlus, List, MessageSquare } from 'lucide-react';
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  logoImage: string;
+  heroImage: string;
+}
+
+const HeroSection = ({ logoImage, heroImage }: HeroSectionProps) => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 bg-gradient-to-b from-saofrancisco-cream to-white">
       <div className="absolute inset-0 z-0 opacity-20">
-        <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1581888227599-779811939961?ixlib=rb-1.2.1&auto=format&fit=crop&w=1674&q=80')] bg-cover bg-center"></div>
+        <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }}></div>
       </div>
       
       <div className="section-container relative z-10">
@@ -15,10 +20,13 @@ const HeroSection = () => {
             <div className="inline-block rounded-full bg-saofrancisco-beige/30 px-4 py-1.5 text-sm font-medium text-saofrancisco-brown">
               Desde 1986 em Brasília
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-saofrancisco-brown leading-tight">
-              Hospital Veterinário<br />
-              <span className="text-saofrancisco-green">São Francisco</span>
-            </h1>
+            <div className="flex items-center gap-4 mb-4">
+              <img src={logoImage} alt="Logo Hospital Veterinário São Francisco" className="h-20 md:h-24" />
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-saofrancisco-brown leading-tight">
+                Hospital Veterinário<br />
+                <span className="text-saofrancisco-green">São Francisco</span>
+              </h1>
+            </div>
             <p className="text-lg md:text-xl text-gray-700">
               Cuidando com amor, tradição e excelência desde 1986.
               O primeiro hospital veterinário de Brasília.
@@ -41,8 +49,8 @@ const HeroSection = () => {
           
           <div className="rounded-lg overflow-hidden shadow-xl animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
-              alt="Veterinário com paciente" 
+              src={heroImage}
+              alt="Fachada do Hospital Veterinário São Francisco" 
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
