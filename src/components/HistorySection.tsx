@@ -14,12 +14,11 @@ const HistorySection = ({ founderImage }: HistorySectionProps) => {
             <h2 className="section-title">Nossa História</h2>
             <p className="text-lg text-gray-700">
               O Hospital Veterinário São Francisco foi fundado por Luiz Carlos de Oliveira em 1986, 
-              sendo o primeiro hospital veterinário de Brasília. Sua criação foi inspirada após visitas 
-              técnicas realizadas aos EUA, Canadá e Japão, trazendo o que havia de mais moderno em 
+              sendo o primeiro hospital veterinário de Brasília. Sua criação foi inspirada após visitas técnicas realizadas aos EUA, Canadá e Japão, trazendo o que havia de mais moderno em 
               medicina veterinária para a capital federal.
             </p>
             <p className="text-lg text-gray-700">
-              Um projeto familiar desde a concepção, o hospital foi totalmente idealizado pela família e se 
+              Um projeto familiar desde a concepção, o hospital foi totalmente idealizado e se 
               tornou pioneiro no setor, contribuindo para a formação de inúmeros profissionais e 
               para o desenvolvimento da medicina veterinária no Distrito Federal.
             </p>
@@ -49,7 +48,7 @@ const HistorySection = ({ founderImage }: HistorySectionProps) => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg transform rotate-3">
               <img 
-                src="/lovable-uploads/3f591ae7-9272-43e1-9fc0-f118930e917b.png" 
+                src="/lovable-uploads/3f591ae7-9272-43e1-9fc0-f118930e917b.jpeg" 
                 alt="Hospital hoje" 
                 className="w-full h-64 object-cover"
               />

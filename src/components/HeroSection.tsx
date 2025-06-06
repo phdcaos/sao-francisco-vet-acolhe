@@ -36,10 +36,7 @@ const HeroSection = ({ logoImage, heroImage }: HeroSectionProps) => {
                 <CalendarPlus size={20} />
                 <span>Agende uma consulta</span>
               </a>
-              <a href="#servicos" className="button-secondary flex items-center gap-2">
-                <List size={20} />
-                <span>Conheça nossos serviços</span>
-              </a>
+      
               <a href="#contato" className="button-outline flex items-center gap-2">
                 <MessageSquare size={20} />
                 <span>Fale conosco</span>
@@ -47,13 +44,7 @@ const HeroSection = ({ logoImage, heroImage }: HeroSectionProps) => {
             </div>
           </div>
           
-          <div className="rounded-lg overflow-hidden shadow-xl animate-fade-in">
-            <img 
-              src={heroImage}
-              alt="Fachada do Hospital Veterinário São Francisco" 
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
+        
         </div>
       </div>
       

@@ -48,10 +48,9 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Contato</h4>
             <address className="not-italic text-gray-300 space-y-2">
-              <p>SHIS QI 11 Bloco O, Lago Sul</p>
-              <p>Brasília - DF, 71625-235</p>
-              <p>Telefone: (61) 3248-0122</p>
-              <p>Email: contato@hospitalsaofrancisco.com.br</p>
+              <p>SPO SAIS -  Área Especial Lote 16/17 - ASA SUL</p>
+              <p>Brasília - DF, 71737-000</p>
+              <p>Telefone: (61) 3201-5229</p>
             </address>
           </div>
         </div>

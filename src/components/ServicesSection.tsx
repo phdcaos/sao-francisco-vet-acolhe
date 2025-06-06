@@ -22,7 +22,7 @@ const ServicesSection = () => {
   ];
   
   const specialties = [
-    "Oncologia", "Oftalmologia", "Neurologia", "Cardiologia", "Imagem", "Aves"
+    "Oncologia", "Oftalmologia", "Neurologia", "Cardiologia", "Imagem", 
   ];
 
   return (
@@ -30,7 +30,7 @@ const ServicesSection = () => {
       <div className="section-container">
         <h2 className="section-title">Nossos Serviços</h2>
         <p className="mb-12 text-lg text-gray-700 max-w-3xl">
-          Oferecemos uma ampla gama de serviços veterinários, com foco exclusivo na saúde e bem-estar dos animais, tanto domésticos quanto silvestres e exóticos.
+          Oferecemos uma ampla gama de serviços veterinários, com foco na saúde e bem-estar dos animais, tanto domésticos quanto silvestres e exóticos.
         </p>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">

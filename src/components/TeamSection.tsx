@@ -23,7 +23,7 @@ const TeamSection = () => {
               comprometidos com o bem-estar dos animais.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              Um diferencial de nossa equipe é a supervisão constante da diretora Cláudia, que faz questão 
+              Um diferencial de nossa equipe é a supervisão constante do diretor Luiz Carlos, que faz questão 
               de ligar pessoalmente para os tutores após os atendimentos, garantindo o acompanhamento 
               adequado e reforçando nosso compromisso com o cuidado personalizado.
             </p>
@@ -42,23 +42,6 @@ const TeamSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-4">
-            <div className="rounded-lg overflow-hidden h-72">
-              <img 
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
-                alt="Veterinário atendendo" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="rounded-lg overflow-hidden h-72 self-end">
-              <img 
-                src="https://images.unsplash.com/photo-1606816587566-c2694900e8cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
-                alt="Equipe médica" 
-                className="w-full h-full object-cover"
-              />
             </div>
           </div>
         </div>
